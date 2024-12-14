@@ -76,7 +76,7 @@ def show_summarization_page():
 
     with col1:
         # Logo with width 350
-        st.image("E:/YouTube-Video-Summarization-App/logo.png", width=350)
+        st.image("logo.png", width=350)
 
     with col2:
         # Title with Times New Roman font and centered with a little lower margin
