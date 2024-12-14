@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+youtube-transcript-api
+google-generativeai
+pytube
+rake-nltk
+googletrans==4.0.0-rc1
+nltk
