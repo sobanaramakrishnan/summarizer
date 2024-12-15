@@ -7,7 +7,8 @@ from pytube import YouTube
 from rake_nltk import Rake
 from googletrans import Translator
 from nltk.corpus import wordnet as wn
-
+import nltk
+nltk.download('wordnet')
 # Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
